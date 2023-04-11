@@ -1,6 +1,6 @@
 ---
 title: "First version control project"
-output: html_document
+output: pdf_document
 date: "2023-04-11"
 ---
 
@@ -13,3 +13,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 plot(cars)
 ```
+
+```{r}
+library(knitr)
+kable(summary(cars))
+```
+
